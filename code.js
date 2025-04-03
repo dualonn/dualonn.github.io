@@ -11,9 +11,10 @@ function scroll(){
     if(document.getElementById("img-carousel").scrollLeft > ((document.getElementById("img-carousel").children.length - 1) * 1100) - 1){
         document.getElementById("img-carousel").scrollLeft = 0
     }
+    requestAnimationFrame(scroll)
 }
 
-setInterval(scroll, 10)
+requestAnimationFrame(scroll)
 
 // function pagehandler(trigger, newshow){
 //     let thisid = trigger.id;
