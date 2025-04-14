@@ -1,0 +1,10 @@
+#Home, #About, #Projects{
+    order: 2;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#Home, #Projects, #About div{
+    font: 50px Arial;
+}
